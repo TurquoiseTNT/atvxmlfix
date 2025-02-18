@@ -2,7 +2,7 @@
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
     id="one.turquoisetnt.cordova.plugins.atvxmlfix"
-    version="1.0.3">
+    version="1.0.4">
 	
 	<name>AndroidTVPlugin</name>
     <description>Cordacitor Android TV Plugin</description>
@@ -35,6 +35,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </config-file>
 	
 	<hook type="after_prepare" src="isgame.js" />
+	<hook type="after_prepare" src="applyBanner.js" />
   </platform>
   
 </plugin>

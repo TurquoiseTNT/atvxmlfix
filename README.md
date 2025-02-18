@@ -1,7 +1,7 @@
-Android TV Plugin for Cordova
+Android TV Plugin for Cordova and Capacitor
 ==============================
 
-Cordova plugin to add tags to the AndroidManifest.xml that'll let your Cordova app run on Google TV, Android TV and OUYA.
+Cordova (and Capacitor) plugin to add tags to the AndroidManifest.xml that'll let your Cordova app run on Google TV, Android TV and OUYA.
 
 That's all it does (I just needed something to streamline this process for me).
 
@@ -23,11 +23,17 @@ To-do
 Install
 -------
 
-`cordova plugin add https://github.com/hughisaacs2/Cordova-Android-TV-Plugin.git`
+#### Cordova
+`cordova plugin add https://github.com/turquoisetnt/atvxmlfix.git`
+
+#### Capacitor
+`npm install https://github.com/turquoisetnt/atvxmlfix.git` (and then do cap sync)
 
 Source
 -------------
-https://github.com/hughisaacs2/Cordova-Android-TV-Plugin
+https://github.com/turquoisetnt/atvxmlfix
+
+Originally Made by @hughisaacs2
 
 License
 -------

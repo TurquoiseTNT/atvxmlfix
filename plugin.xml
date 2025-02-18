@@ -25,7 +25,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		<uses-feature android:name="android.hardware.gamepad" android:required="false"/>
     </config-file>
 
-	<config-file target="AndroidManifest.xml" parent="/manifest/application/activity/intent-filter">
+	<config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
 		   <action android:name="android.intent.action.VIEW" />
 		   <action android:name="android.intent.action.HOME" />
         <category android:name="android.intent.category.DEFAULT" />

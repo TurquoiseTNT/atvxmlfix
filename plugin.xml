@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
-    id="one.turquoisetnt.atvxmlfix"
+    id="one.turquoisetnt.cordova.plugins.atvxmlfix"
     version="1.0.3">
 	
 	<name>AndroidTVPlugin</name>
-    <description>Cordova & Capacitor Android TV Plugin</description>
+    <description>Cordacitor Android TV Plugin</description>
 	<author email="sebandblocks@turquoisetnt.one" href="http://turquoisetnt.one">SebAndBlocks</author>
     <license>MIT</license>
 	<keywords>ecosystem:cordova,cordova-android,capacitor</keywords>
-	<!--
 	<preference name="is_game" />
     <preference name="uses_gamepad" />
-	-->
   <engines>
     <engine name="cordova" version=">=3.0.0" />
   </engines>
@@ -24,7 +22,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 		<uses-feature android:name="android.hardware.wifi" android:required="false" />
 		<uses-feature android:name="android.hardware.bluetooth" android:required="false" />
-		<!-- <uses-feature android:name="android.hardware.gamepad" android:required="false"/> -->
+		<uses-feature android:name="android.hardware.gamepad" android:required="false"/>
     </config-file>
 
 	<config-file target="AndroidManifest.xml" parent="/manifest/application/activity/intent-filter">

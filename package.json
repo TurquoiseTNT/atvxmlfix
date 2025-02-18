@@ -1,8 +1,8 @@
 {
     "version": "1.0.3",
-    "name": "com.hughisaacs2.cordova.plugins.androidtvplugin",
+    "name": "one.turquoisetnt.cordova.plugins.atvxmlfix",
     "cordova_name": "AndroidTVPlugin",
-    "description": "Cordova Android TV Plugin",
+    "description": "Cordacitor Android TV Plugin",
     "platforms": [
         "android"
     ],
@@ -14,16 +14,17 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/HughIsaacs2/Cordova-Android-TV-Plugin.git"
+        "url": "git+https://github.com/turquoisetnt/atvxmlfix.git"
     },
     "keywords": [
         "ecosystem:cordova",
-        "cordova-android"
+        "cordova-android",
+        "capacitor"
     ],
-  "author": "Hugh Isaacs II",
+  "author": "SebAndBlocks",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HughIsaacs2/Cordova-Android-TV-Plugin/issues"
+    "url": "https://github.com/turquoisetnt/atvxmlfix/issues"
   },
-  "homepage": "https://github.com/HughIsaacs2/Cordova-Android-TV-Plugin"
+  "homepage": "https://github.com/turquoisetnt/atvxmlfix"
 }
